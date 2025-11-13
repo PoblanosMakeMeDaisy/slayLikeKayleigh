@@ -14,6 +14,14 @@ body {
   flex-direction: column;
 }
 
+.cards {
+
+  display: flex;            /* make it a flex container */
+  flex-wrap: wrap;          /* allow items to move to next row when needed */
+  gap: 1rem;                /* space between cards */
+  justify-content: flex-start; /* align cards at the start, can also use center or space-around */
+}
+
 /* === Contact Container === */
 .contact {
   background-color: #fff;
