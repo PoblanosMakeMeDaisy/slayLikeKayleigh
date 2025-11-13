@@ -9,6 +9,10 @@ body {
   display: flex;
 }
 
+.flexBox {
+  flex-direction: column;
+}
+
 /* === Contact Container === */
 .contact {
   background-color: #fff;
@@ -20,9 +24,6 @@ body {
   transition: transform 0.15s ease, box-shadow 0.15s ease;
 }
 
-.flexBox {
-  display: flex;
-}
 
 /* Hover effect for interactivity */
 .contact:hover {
@@ -73,5 +74,6 @@ body {
     font-size: 0.9rem;
   }
 }
+
 
 
