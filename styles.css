@@ -12,6 +12,7 @@ body {
 .flexBox {
   display: flex;
   flex-direction: column;
+  margin-right: 20px;
 }
 
 /* === Contact Container === */
